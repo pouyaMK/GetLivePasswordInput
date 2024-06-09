@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Password</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Sign Up</h2>
+        <h3>Enter your credentials</h3>
+        <h3 style="color: white; text-decoration: underline;">check the console when you are type password</h3>
+        <form action="" class="form">
+            <input class="control" id="password" type="password" placeholder="password" oninput="handleChange()">
+            <div id="bars">
+                <div></div>
+            </div>
+            <div class="strength" id="strength"></div>
+            <button class="control">continue</button>
+        </form>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
